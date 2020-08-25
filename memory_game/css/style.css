@@ -1,5 +1,6 @@
 body {
     text-align: center;
+<<<<<<< HEAD
     text-decoration: none;
     }
 
@@ -20,3 +21,17 @@ title {
     font-size: 45px;
 }
        
+=======
+    }
+
+
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    }
+    
+    p {
+    font-family: "Droid Serif", serif;
+    }
+>>>>>>> cf61bc5d16eee3942cbea85f40aa10ef853e1f54
