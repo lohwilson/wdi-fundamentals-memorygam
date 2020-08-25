@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    text-decoration: none;
+    }
+
+    h1 {
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        }
+        
+        p {
+        font-family: "Droid Serif", serif;
+        }
+
+title {
+    font-family: "Raleway", sans-serif;
+    color: #0D2C40;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+}
+       
