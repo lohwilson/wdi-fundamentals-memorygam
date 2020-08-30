@@ -42,7 +42,7 @@ function flipCard(){
 
     let cardId = this.getAttribute('data-id');
     cardsInPlay.push(cards[cardId].rank);
-    this.setAttribute(src, cards[cardId].cardImage);
+    this.setAttribute('src', cards[cardId].cardImage);
 
     if (cardsInPlay.length === 2){
         if (cardsInPlay[0] === cardsInPlay[1]){
@@ -57,17 +57,17 @@ function flipCard(){
 };
 
 function createBoard(){
-    for ( let i = 0; i < cards.length; i++){
+    let gameBoard = document.getElementById('game-board');
 
+    for ( let i = 0; i < cards.length; i++){
         let cardElement = document.createElement('img');
         cardElement.setAttribute('src', 'images/back.png');
         cardElement.setAttribute('data-id', i);
         cardElement.addEventListener('click', flipCard);
-        document.getElementById("#game-board").appendChild(cardElement[i]);
+        gameBoard.appendChild(cardElement);
     }
 };
 
 createBoard();
-
 
 
